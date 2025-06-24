@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Now - ACME</title>
+  <link rel="stylesheet" href="buynow.css" />
+</head>
+<body>
+
+  <!-- Company Name Bar -->
+  <div class="company-bar">
+    <p>ACME AIR CONDITION'S PVT LTD</p>
+  </div>
+
+  <div class="buy-container">
+    <!-- Product Summary -->
+    <div class="product-summary">
+      <img src="lg-removebg-preview.png" alt="LG AC" />
+      <h2>LG 1.5 Ton 5 Star Inverter Split AC</h2>
+      <p class="price">RS: 44,999</p>
+
+      <ul class="specs">
+        <li><strong>Cooling Tech:</strong> AI Convertible 6-in-1 Modes</li>
+        <li><strong>Compressor:</strong> Dual Inverter Compressor</li>
+        <li><strong>Energy Efficiency:</strong> 5 Star Rating</li>
+        <li><strong>Coverage Area:</strong> Up to 150 sq. ft</li>
+        <li><strong>Filters:</strong> HD Filter with Anti-Virus Protection</li>
+        <li><strong>Noise Level:</strong> Low Noise Operation</li>
+        <li><strong>Warranty:</strong> 10 years on compressor</li>
+      </ul>
+    </div>
+
+    <!-- Buyer Form -->
+    <form class="buy-form">
+      <h3>Enter Your Details</h3>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+
+      <label for="payment">Payment Method</label>
+      <select id="payment" name="payment">
+        <option value="cod">Cash on Delivery</option>
+        <option value="upi">UPI</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="netbanking">Net Banking</option>
+      </select>
+
+      <button type="submit" class="btn">Confirm Purchase</button>
+    </form>
+  </div>
+
+  <!-- News Bar -->
+  <div class="news-bar">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      💳 Secure payments | 🚚 Free home delivery on all orders | ☎️ 24/7 support from ACME!
+    </marquee>
+  </div>
+
+</body>
+</html>
